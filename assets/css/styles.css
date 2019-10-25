@@ -173,3 +173,32 @@
     color: #333;
     transform: scale(1.05);
 }
+
+/*------------------------------------------ Footer */
+
+.footer-container {
+    background-color: #ffffff;
+    position: fixed;
+    height: 7%;
+    bottom: 0;
+}
+
+.footer-details {
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.social-links li a i {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    font-size: 20px;
+    color: #8c8c8c;
+    transition: color 0.3s ease-out,
+                transform 0.3s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #333;
+    transform: scale(1.2);
+}
