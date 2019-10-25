@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Shadows+Into+Light+Two&display=swap');
+
+/*------------------------------------------ Backgrounds */
+
+.home-page,
+.about-page,
+.history-page,
+.skills-page,
+.portfolio-page,
+.photography-page,
+.contact-page    {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.home-page {
+    background-position: bottom 30% right;
+    background-size: 60%;
+}
+
+.about-page,
+.history-page,
+.skills-page,
+.portfolio-page,
+.photography-page,
+.contact-page    {
+    background-position: bottom 15% right;
+    background-size: auto 20%;
+}
+
+/*------------------------------------------ Header */
+
+.header-container {
+    background-color: #ffffff;
+    position: fixed;
+    height: 150px;
+    top: 0;
+    z-index: 1;
+}
+
+.paperclip-container {
+    position: fixed;
+    top: -28px;
+    left: 3%;
+    z-index: 2;
+}
+
+.paperclip-image {
+    height: 8vw;
+    min-height: 100px;
+}
+
+.top-logo {
+    margin: auto;
+    display: block;
+    width: 5vw;
+    min-width: 50px;
+    height: auto;
+    padding-top: 20px;
+}
