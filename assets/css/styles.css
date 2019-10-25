@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Shadows+Into+Light+Two&display=swap');
 
+
 /*------------------------------------------ Backgrounds */
 
 .home-page,
@@ -27,6 +28,7 @@
     background-position: bottom 15% right;
     background-size: auto 20%;
 }
+
 
 /*------------------------------------------ Header */
 
@@ -57,15 +59,6 @@
     min-width: 50px;
     height: auto;
     padding-top: 20px;
-}
-
-.top-divider {
-    margin: auto;
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    display: block;
-    padding-top: 10px;
 }
 
 /*------------------------------------------ Navigation */
@@ -174,6 +167,27 @@
     transform: scale(1.05);
 }
 
+.top-divider {
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    padding-top: 10px;
+}
+
+.nav-orientation {
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+.nav-orientation p {
+    margin-bottom: 0;
+    font-family: "Shadows Into Light", sans-serif;
+    font-size: 20px;
+}
+
+
 /*------------------------------------------ Footer */
 
 .footer-container {
@@ -201,4 +215,52 @@
 .social-links li a i:hover {
     color: #333;
     transform: scale(1.2);
+}
+
+
+/*------------------------------------------ Media Queries */
+
+@media screen and (max-width: 767px) {
+    .home-page {
+        background-size: 80%, 0px;
+        background-position: bottom 35% right;
+    }
+
+    .about-page,
+    .history-page,
+    .skills-page,
+    .portfolio-page,
+    .photography-page,
+    .contact-page {
+        background: none;
+    }
+
+    .paperclip-container {
+        display:none;
+    }
+
+    .header-container {
+        height: 100px;
+    }
+
+    .top-logo {
+        margin: auto;
+        width: 40px;
+        height: auto;
+        display: block;
+        padding-top: 20px;
+    }
+
+    .content-container {
+    padding: 90px 30px 120px;
+    margin: 0;
+    }
+
+    .footer-container {
+        text-align: center;
+    }
+
+    .footer-details {
+        padding: 15px;
+    }
 }
