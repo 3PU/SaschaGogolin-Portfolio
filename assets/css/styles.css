@@ -58,3 +58,118 @@
     height: auto;
     padding-top: 20px;
 }
+
+.top-divider {
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    padding-top: 10px;
+}
+
+/*------------------------------------------ Navigation */
+
+.navbar-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    transition: transform 0.3s ease-in-out;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: #8c8c8c;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
+    padding: 0px 10px;
+    transition: color 0.3s ease-out;
+}
+
+.navbar-item:hover {
+    transform: scale(1.05);
+}
+
+.navbar-item a:hover {
+    color: #333;
+}
+
+.nav-toggler {
+    position:fixed;
+    min-width:40px;
+    min-height:40px;
+    left: 10%;
+    overflow:hidden;
+    z-index: 1;
+}
+
+.nav-toggler input{
+    display:none;
+}
+
+.nav-toggler input:checked ~ label span:last-child{
+    display:none;
+}
+.nav-toggler input:not(:checked) ~ label span:first-child{
+    display:none;
+}
+
+.nav-toggler label{
+    display: block;
+    position: fixed;
+    right: 10px;
+    top: 2%;
+    user-select: none;
+    width:50px;
+    height:50px;
+    text-align:center;
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color:#8c8c8c;
+    cursor:pointer;
+}
+
+.nav-toggler ul{
+    overflow:hidden;
+    position: fixed;
+    background-color: #8c8c8c;
+    border-radius: 10px;
+    list-style:none;
+    right: -50px;
+    top: 10%;
+    width:0;
+    height:0;
+    padding:0;
+    margin:0;
+    transition:width 0.7s, height 0.7s;
+}
+
+.nav-toggler input:checked ~ ul{
+    width:180px;
+    height:180px;
+}
+
+.nav-toggler ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    text-align: right;
+    font-family: "Roboto", sans-serif;
+    display:block;
+    height:30px;
+    width: 105px;
+    line-height:30px;
+    transition:color 0.5s, transform 0.5s;
+    }
+
+.nav-toggler ul li a:hover{
+    color: #333;
+    transform: scale(1.05);
+}
