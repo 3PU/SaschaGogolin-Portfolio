@@ -9,7 +9,8 @@
 .skills-page,
 .portfolio-page,
 .photography-page,
-.contact-page    {
+.contact-page,
+.location-page {
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -24,7 +25,8 @@
 .skills-page,
 .portfolio-page,
 .photography-page,
-.contact-page    {
+.contact-page,
+.location-page {
     background-position: bottom 15% right;
     background-size: auto 20%;
 }
@@ -207,6 +209,7 @@ body h6,
 
 .content-container {
     padding: 40px 30px 120px;
+    text-align: center;
     margin: 0;
 }
 
@@ -227,6 +230,7 @@ body h6,
     padding-top: 10px;
     padding-bottom: 20px;
 }
+
 
 /*------------------------------------------ History */
 
@@ -258,6 +262,19 @@ body h6,
     padding: .5em;
 }
 
+
+/*------------------------------------------ Location Page */
+
+.location-description {
+    padding: 20px 10px;
+}
+
+.map-container iframe {
+    width: 600px;
+    height: 400px;
+}
+
+
 /*------------------------------------------ Footer */
 
 .footer-container {
@@ -267,13 +284,12 @@ body h6,
 }
 
 .footer-details {
-    padding-top: 10px 30px;
+    padding: 10px 30px;
 }
 
 .social-links li a i {
     width: 28px;
     height: 28px;
-    padding-top: 10px;
     text-align: center;
     font-size: 1.5em;
     color: #8c8c8c;
@@ -300,7 +316,8 @@ body h6,
     .skills-page,
     .portfolio-page,
     .photography-page,
-    .contact-page {
+    .contact-page,
+    .location-page {
         background: none;
     }
 
@@ -321,21 +338,24 @@ body h6,
     }
 
     .content-container {
-    padding: 60px 30px 120px;
+        padding: 20px 10px 40px;
     }
+
+    .map-container iframe {
+        width: 270px;
+        height: 450px;
+    }
+
     .footer-container {
         text-align: center;
     }
 
     .footer-details {
-        padding: 15px;
+        padding: 5px;
     }
 
     .social-links {
         margin-bottom: 0;
     }
 
-    .social-links li a i {
-        padding: 10px;
-    }
 }
