@@ -29,6 +29,16 @@
     background-size: auto 20%;
 }
 
+/*------------------------------------------ Fonts */
+
+body h2 {
+    font-family: "Shadows Into Light", sans-serif;
+}
+
+body p {
+    font-family: "Roboto", sans-serif;
+}
+
 
 /*------------------------------------------ Header */
 
@@ -45,14 +55,14 @@
 }
 
 .paperclip-image {
-    height: 8vw;
+    height: 7vw;
     min-height: 100px;
 }
 
 .top-logo {
     margin: auto;
     display: block;
-    width: 5vw;
+    width: 4vw;
     min-width: 50px;
     height: auto;
     padding-top: 20px;
@@ -121,7 +131,7 @@
     height:50px;
     text-align:center;
     font-family: "Roboto", sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     color:#8c8c8c;
     cursor:pointer;
 }
@@ -164,15 +174,6 @@
     transform: scale(1.05);
 }
 
-.top-divider {
-    margin: auto;
-    width: 100%;
-    max-width: 900px;
-    height: auto;
-    display: block;
-    padding-top: 10px;
-}
-
 .nav-orientation {
     padding: 10px 0 0 0;
     text-align: center;
@@ -182,6 +183,15 @@
     margin-bottom: 0;
     font-family: "Shadows Into Light", sans-serif;
     font-size: 20px;
+}
+
+.top-divider {
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    display: block;
+    padding-top: 10px;
 }
 
 
@@ -202,7 +212,6 @@
 .about-content {
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: "Shadows Into Light", sans-serif;
     text-align: center;
 }
 
@@ -211,22 +220,16 @@
     padding-bottom: 20px;
 }
 
-.about-content p {
-    font-family: "Roboto", sans-serif;
-}
-
 /*------------------------------------------ Footer */
 
 .footer-container {
     background-color: #ffffff;
     position: fixed;
-    height: 7%;
     bottom: 0;
 }
 
 .footer-details {
-    padding-top: 10px;
-    padding-left: 30px;
+    padding-top: 10px 30px;
 }
 
 .social-links li a i {
@@ -234,7 +237,7 @@
     height: 28px;
     padding-top: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5em;
     color: #8c8c8c;
     transition: color 0.3s ease-out,
                 transform 0.3s ease-in-out;
@@ -285,5 +288,13 @@
 
     .footer-details {
         padding: 15px;
+    }
+
+    .social-links {
+        margin-bottom: 0;
+    }
+
+    .social-links li a i {
+        padding: 10px;
     }
 }
