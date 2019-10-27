@@ -31,12 +31,19 @@
 
 /*------------------------------------------ Fonts */
 
-body h2 {
+body h1,
+     h2,
+     h3,
+     h4,
+     h5 {
     font-family: "Shadows Into Light", sans-serif;
+    margin: 0;
 }
 
-body p {
+body h6,
+     p {
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 
@@ -181,8 +188,9 @@ body p {
 
 .nav-orientation p {
     margin-bottom: 0;
-    font-family: "Shadows Into Light", sans-serif;
-    font-size: 20px;
+    color: #606060;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
 }
 
 .top-divider {
@@ -218,6 +226,36 @@ body p {
 .about-content h2 {
     padding-top: 10px;
     padding-bottom: 20px;
+}
+
+/*------------------------------------------ History */
+
+.divider-container {
+    padding: 1em;
+}
+
+.divider {
+    margin: .5em .5em;
+    width: 50%;
+    max-width: 200px;
+    height: auto;
+}
+
+.history-items {
+    text-align: center;
+}
+
+.timeline-heading {
+    padding: .5em 1em 1em;
+}
+
+.timeline-item p {
+    padding: .5em;
+    color: #8c8c8c;
+}
+
+.timeline-item h6 {
+    padding: .5em;
 }
 
 /*------------------------------------------ Footer */
@@ -282,6 +320,9 @@ body p {
         padding-top: 20px;
     }
 
+    .content-container {
+    padding: 60px 30px 120px;
+    }
     .footer-container {
         text-align: center;
     }
