@@ -27,7 +27,7 @@
 .photography-page,
 .contact-page,
 .location-page {
-    background-position: bottom 15% right;
+    background-position: bottom 10% right;
     background-size: auto 20%;
 }
 
@@ -235,7 +235,7 @@ body h6,
 }
 
 .about-content p {
-    text-align: justify
+    text-align: justify;
     padding: 20px;
 }
 
@@ -261,6 +261,7 @@ body h6,
 }
 
 .timeline-item p {
+    text-align: justify;
     padding: 10px;
 }
 
