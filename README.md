@@ -124,20 +124,20 @@ GitHub is used for version control. The site is hosted on GitHub pages and deplo
 
 <br/>
 
-# Credits
+## Credits
 
-## Content
+### Content
 
 All content on the website except the below mentioned graphics and elements have been written, coded and designed by me.
 
-## Media
+### Media
 
 The original ‘hand/pen’ background image was taken from PurePNG [here](https://purepng.com/photo/11086/objects-pen-on-hand) and the paperclip image from HiClipart [here](https://www.hiclipart.com/free-transparent-background-png-clipart-qysrn).
 
-## Acknowledgements
+### Acknowledgements
 
 The css nav-toggler menu code was found on this [page](https://codepen.io/maxpelic/pen/arpgmE) and significantly modified to fit the styling and design of the page.
 
-## License
+### License
 
 This project is licensed under the MIT License (see the LICENSE.md file for details).
