@@ -1,8 +1,8 @@
-#Sascha Gogolin Portfolio
+# Sascha Gogolin Portfolio
 
 ---
 
-##Table Of Contents
+## Table Of Contents
 
 - General Information
 - Technologies
@@ -18,7 +18,7 @@
 
 ---
 
-##General Information
+## General Information
 
 User Centric Frontend Development Milestone Project
 A personal portfolio with a minimalistic design, giving potential employers/contractors a brief introduction to who I am, my different skillsets, work history, examples of my past work/projects and a contact form.
@@ -26,7 +26,7 @@ The reason I decided to build a personal portfolio for this project is because I
 
 ---
 
-##Technologies
+## Technologies
 
 - HTML
 - CSS
@@ -35,7 +35,7 @@ The reason I decided to build a personal portfolio for this project is because I
 
 ---
 
-##UI
+## UI
 
 My goal with the minimalistic design was to keep the viewer’s focus on the core information and what I’m trying to communicate at all times whilst providing small visual elements and subtle effects to keep the viewer interested and make the website appealing to the eye.
 Except the background, paperclip image and photography thumbnails, all colors on the website use a pallet of various grey tones.
@@ -44,39 +44,39 @@ On smaller screen sizes, the navbar is replaced by a nav-toggler (menu icon) and
 
 ---
 
-##UX
+## UX
 
 I aimed to keep the navigation between the different pages natural and intuitive. The viewer can navigate between the different pages using a standard top navigation bar on larger screens and a toggler/menu button on smaller screens. Links to social media pages have been placed discretely in the footer.
 
 ---
 
-##Accessibility
+## Accessibility
 
 To increase accessibility of the website, ALT attributes have been added to all images and ‘sr-only’ attributes have been added to the top navigation bar, social links in the footer and to the progress bars on the skill page to allow screen readers to capture and reproduce the data/information presented.
 
 ---
 
-##Challenges
+## Challenges
 
 One of the main challenges in the beginning of the project was to design and adjust the size/position of the background images used in the larger screen size version in a way so it would stay clear of the content as much as possible.
 For smaller screen sizes the challenge was to find a way to keep the ‘notebook’ feeling alive whilst providing the user with a clear orientation without using up too much ‘real estate’ something that was achieved by removing the background images entirely and replace the top navigation bar with a nav-toggler menu.
 
 ---
 
-##Features
+## Features
 
-###Existing Features
+### Existing Features
 
 The background image provides viewers using larger screens a navigation orientation as the text written by the hand/pen image reflects the current page that’s loaded (i.e. about, work history, etc.). Viewers on smaller screens will instead be presented with a orientation label at the top of the screen below the main logo to avoid text blurring together with the background image on smaller screens.
 Subtle hovering effects (color transition and scale transform) on the navbar and social link items and photography thumbnails. and a soft transition effect to the toggler/menu window on smaller screens.
 
-###Features Left To Implement
+### Features Left To Implement
 
 I’d like to add a portfolio page in the future where I can present all of my future projects. Since I for this project wanted every page to only reflect accurate information of me, my skills and work history, at this stage, I decided not to add a portfolio page with ‘fake’ projects.
 
 ---
 
-##Testing
+## Testing
 
 The site was created using a mobile-first approach and ongoing testing of the responsiveness thus became a crucial part of the testing process to ensure the site is presented as intended on all screen sizes. Testing was also performed across multiple browsers such as Chrome, Safari, Internet Explorer, Edge, Firefox to ensure responsiveness and compatibility.
 The majority of responsiveness and functionality testing was performed during development using the developer tools in Google Chrome and towards the end of the project also live on a high-resolution screen (iMac) and iPhone 7 plus.
@@ -90,27 +90,27 @@ Another feature that was working correctly in the ‘iPhone view’ of the devel
 
 ---
 
-##Deployment/Versioning
+## Deployment/Versioning
 
 GitHub is used for version control. The site is hosted on GitHub pages and deployed/updated via the master branch upon every new commit.
 
 ---
 
-#Credits
+# Credits
 
-##Content
+## Content
 
 All content on the website except the below mentioned graphics and elements have been written, coded and designed by me.
 
-##Media
+## Media
 
 The ‘hand/pen’ background image was taken from PurePNG here and the paperclip image from HiClipart here.
 
-##Acknowledgements
+## Acknowledgements
 
 The css nav-toggler menu code was found on this page and significantly modified to fit the styling and design of the page.
 
-##License
+## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
