@@ -157,6 +157,11 @@ body p {
     color: #333;
 }
 
+.nav-list {
+    margin: 0;
+    padding: 0;
+}
+
 .nav-orientation {
     padding: 10px 0 0 0;
     text-align: center;
@@ -169,33 +174,15 @@ body p {
     font-size: 1.1em;
 }
 
-.nav-toggler label{
-    display: block;
-    position: fixed;
-    right: 10px;
-    top: 2%;
-    user-select: none;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-    color: #8c8c8c;
-    cursor: pointer;
-}
-
-.nav-list {
-    margin: 0;
-    padding: 0;
-}
-
 .nav-toggler {
-    position: fixed;
-    min-width: 40px;
-    min-height: 40px;
-    left: 10%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    margin: 0;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
-    z-index: 1;
 }
 
 .nav-toggler input{
@@ -209,6 +196,18 @@ body p {
     display: none;
 }
 
+.nav-toggler label{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    user-select: none;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #8c8c8c;
+    cursor: pointer;
+}
+
 .nav-toggler ul{
     overflow: hidden;
     position: fixed;
@@ -217,7 +216,7 @@ body p {
     border-radius: 10px;
     list-style: none;
     right: -50px;
-    top: 10%;
+    top: 100px;
     width: 0;
     height: 0;
     padding: 0;
@@ -227,11 +226,10 @@ body p {
 
 .nav-toggler input:checked ~ ul{
     width:180px;
-    height:180px;
+    height:185px;
 }
 
 .nav-toggler ul li a{
-
     color: #fff;
     text-decoration: none;
     text-align: right;
@@ -241,7 +239,7 @@ body p {
     width: 105px;
     line-height:30px;
     transition:color 0.5s, transform 0.5s;
-    }
+}
 
 .nav-toggler ul li a:hover{
     color: #333;
@@ -476,6 +474,7 @@ body p {
     }
 
     .header-container {
+        padding: 0;
         height: 100px;
     }
 
