@@ -222,6 +222,7 @@ body p {
     padding: 0;
     margin: 0;
     transition: width 0.7s, height 0.7s;
+    z-index: 1;
 }
 
 .nav-toggler input:checked ~ ul{
