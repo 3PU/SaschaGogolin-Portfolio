@@ -227,7 +227,7 @@ body p {
 
 .nav-toggler input:checked ~ ul{
     width:180px;
-    height:185px;
+    height:155px;
 }
 
 .nav-toggler ul li a{
