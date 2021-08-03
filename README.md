@@ -24,6 +24,8 @@
 
 A personal portfolio with a minimalistic design, giving potential employers/contractors a brief introduction to who I am, my different skillsets, work history, examples of my past work/projects and a contact form.
 
+A live demo version of the website can be found [here](https://3pu.github.io/SaschaGogolin-Portfolio/skills.html).
+
 The reason I decided to build a personal portfolio for this project is because I wanted to create something that I can continue to build upon while progressing through the training and something that will be of use to me even after course completion.
 
 <br/>
